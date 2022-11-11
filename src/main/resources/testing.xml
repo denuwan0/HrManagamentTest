@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HRM Application Test Automation Test Suit">
+	<listeners>
+		<listener class-name="com.hrm.qa.ExternalReportListener.ExternalReportListener" />
+	</listeners>
+ 	<test name="HRM App Test Cases">     
+     	<classes>
+       		<class name="com.hrm.qa.testcases.LoginPageTest"/>
+       		<class name="com.hrm.qa.testcases.HomePageTest"/>
+     	</classes>
+ 	</test><!-- Test -->
+</suite><!-- Test -->
